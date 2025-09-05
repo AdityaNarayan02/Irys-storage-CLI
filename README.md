@@ -20,7 +20,7 @@ export IRYS_WALLET=0xYourWalletAddressHere
 
 ## 4. Download installation file
 ```
-wget -O iris.sh https://raw.githubusercontent.com/AdityaNaryan02/Irys-storage-CLI/main/irys.sh
+wget -O irys.sh https://raw.githubusercontent.com/AdityaNarayan02/Irys-storage-CLI/main/irys.sh
 ```
 ```
 chmod +x irys.sh
