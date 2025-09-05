@@ -2,7 +2,7 @@
 
 ## 1. Create iris directory
 ```
-mkdir -p ~/iris && cd ~/iris
+mkdir -p ~/irys && cd ~/irys
 ```
 ## 2. Create your .env file (edit as needed)
 ```
