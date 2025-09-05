@@ -66,8 +66,17 @@ source ~/.irys_env
 
 ### 6. Extra CMDs
 ```
-./irys.sh upload-dir
-./irys.sh price
+./irys.sh <command>
+
+Commands:
+  install       Install OS deps, Node.js, and Irys CLI (apt-based systems)
+  balance       Check balance (reads ~/.irys_env or project .irys_env)
+  fund          Fund your Irys account (prompts for amount in wei)
+  upload        Upload single file (prompts for file path; auto-detects MIME)
+  upload-dir    Upload a folder (prompts for folder path)
+  price         Check price for size (prompts for bytes; pass filename as second arg to auto-calc size)
+  help          Show this help
+
 ```
 
 THANK YOU, IF YOU LIKE MY WORK STAR THE REPO🌟
