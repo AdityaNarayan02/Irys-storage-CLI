@@ -10,11 +10,28 @@ nano ~/.irys_env
 ```
 ### 3. Copy this template in the .env
 ```
-export IRYS_PRIVATE_KEY=your_private_key_here           #hex string, no 0x prefix
+# ~/.irys_env
+# Private key (no 0x)
+export IRYS_PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
+
+# RPC used to talk to the chain (Sepolia example)
 export IRYS_RPC_URL=https://sepolia.drpc.org
+
+# Token & wallet
 export IRYS_TOKEN=ethereum
-export IRYS_NETWORK=devnet
 export IRYS_WALLET=0xYourWalletAddressHere
+
+# Preferred "network" for CLI behaviour (mainnet or devnet) — optional,
+# but if you want to use Sepolia RPC without forcing the devnet bundler,
+# you can leave this blank or set to "devnet" deliberately.
+# export IRYS_NETWORK=devnet
+
+# Optional: explicit uploader/bundler host override (recommended)
+# - Use devnet.irys.xyz for the Irys devnet bundler
+# - Use uploader.irys.xyz for mainnet bundler
+# - Or set to an alternate uploader (e.g., turbo.ardrive.io) if you want to use that service.
+export IRYS_BUNDLER_URL=https://devnet.irys.xyz
+
 ```
 ##### Replace `your_private_key_here` with a fresh wallet's keys and `0xYourWalletAddressHere` with the respective wallet address
 
