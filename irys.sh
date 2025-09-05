@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Always source .env from ~/iris
-if [ -f "$HOME/iris/.env" ]; then
-    source "$HOME/iris/.env"
-else
-    echo "❌ .env file not found at $HOME/iris/.env"
-    echo "Please create it before running the script."
-    exit 1
+CONFIG="$HOME/.irys_env"
+
+# Load config if exists
+if [ -f "$CONFIG" ]; then
+  source "$CONFIG"
 fi
 
 install_deps() {
