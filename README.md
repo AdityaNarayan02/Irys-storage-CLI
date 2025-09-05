@@ -34,6 +34,7 @@ export IRYS_BUNDLER_URL=https://devnet.irys.xyz
 
 ```
 ##### Replace `your_private_key_here` with a fresh wallet's keys and `0xYourWalletAddressHere` with the respective wallet address
+##### Also remember to fund your wallet with some Ethereum Sepolia 🔴
 
 ## 4. Download installation file
 ```
