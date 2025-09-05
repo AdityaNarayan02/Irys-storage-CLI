@@ -14,15 +14,14 @@ nano ~/.irys_env
 # Private key (no 0x)
 export IRYS_PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
 
-# RPC used to talk to the chain (Sepolia example)
+# RPC used to talk to the chain 
 export IRYS_RPC_URL=https://sepolia.drpc.org
 
 # Token & wallet
 export IRYS_TOKEN=ethereum
 export IRYS_WALLET=0xYourWalletAddressHere
 
-# Preferred "network" for CLI behaviour (mainnet or devnet) — optional,
-# but if you want to use Sepolia RPC without forcing the devnet bundler,
+# Preferred "network" for CLI behaviour (mainnet or devnet)
 # you can leave this blank or set to "devnet" deliberately.
 # export IRYS_NETWORK=devnet
 
