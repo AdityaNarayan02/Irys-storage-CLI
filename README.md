@@ -26,6 +26,9 @@ wget -O irys.sh https://raw.githubusercontent.com/AdityaNarayan02/Irys-storage-C
 chmod +x irys.sh
 ```
 ```
+source ~/.irys_env
+```
+```
 ./irys.sh install
 ```
 ## 5. Explore the CLI
